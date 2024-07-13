@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|c:\\users\\nikhil.m\\onedrive - technovert\\desktop\\new folder\\practise\\webrtc prac\\websocketprac\\websocketprac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|solutionrelative:websocketprac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|c:\\users\\nikhil.m\\onedrive - technovert\\desktop\\new folder\\practise\\webrtc prac\\websocketprac\\websocketprac\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|solutionrelative:websocketprac\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|c:\\users\\nikhil.m\\onedrive - technovert\\desktop\\new folder\\practise\\webrtc prac\\websocketprac\\websocketprac\\calldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|solutionrelative:websocketprac\\calldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|c:\\users\\nikhil.m\\onedrive - technovert\\desktop\\new folder\\practise\\webrtc prac\\websocketprac\\websocketprac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C52C8A0C-CE02-4B8F-9103-1F160B717381}|WebSocketPrac\\WebSocketPrac.csproj|solutionrelative:websocketprac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SDPExchange.cs",
               "DocumentMoniker": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\Controllers\\SDPExchange.cs",
               "RelativeDocumentMoniker": "WebSocketPrac\\Controllers\\SDPExchange.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "WebSocketPrac\\Controllers\\SDPExchange.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T10:12:21.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T10:12:21.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CallDetails.cs",
               "DocumentMoniker": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\CallDetails.cs",
               "RelativeDocumentMoniker": "WebSocketPrac\\CallDetails.cs",
@@ -55,31 +54,30 @@
               "RelativeToolTip": "WebSocketPrac\\CallDetails.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:01:38.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T08:01:38.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WebSocketHandler.cs",
               "DocumentMoniker": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\WebSocketHandler.cs",
               "RelativeDocumentMoniker": "WebSocketPrac\\WebSocketHandler.cs",
               "ToolTip": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\WebSocketHandler.cs",
               "RelativeToolTip": "WebSocketPrac\\WebSocketHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwv0EAAABTAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T06:26:05.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\Program.cs",
               "RelativeDocumentMoniker": "WebSocketPrac\\Program.cs",
               "ToolTip": "C:\\Users\\nikhil.m\\OneDrive - Technovert\\Desktop\\New folder\\practise\\WebRTC prac\\WebSocketPrac\\WebSocketPrac\\Program.cs",
               "RelativeToolTip": "WebSocketPrac\\Program.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAmwCkAAAANAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T06:25:28.33Z",
               "EditorCaption": ""
