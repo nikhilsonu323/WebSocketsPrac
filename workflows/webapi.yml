@@ -1,0 +1,40 @@
+name : Publish Full Stack Video Calling APP 🚀🚀🚀🚀🚀
+ 
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+ 
+env:
+  AZURE_WEBAPI_NAME: WebSocketVideoCalling
+  AZURE_WEBAPI_PACKAGE_PATH: "./publish"
+ 
+ 
+jobs:
+  deploy-and-publish:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - uses : actions/checkout@v4
+ 
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+ 
+      - name: Restore
+        run: dotnet restore ./WebSocketPrac.sln
+ 
+      - name: Build
+        run: dotnet build ./WebSocketPrac.sln --configuration Release --no-restore
+ 
+      - name:  Publish
+        run: dotnet publish ./WebSocketPrac.sln --configuration Release --no-build --output '${{ env.AZURE_WEBAPI_PACKAGE_PATH }}'
+ 
+      - name: Deployement
+        uses: azure/webapps-deploy@v2
+        with:  
+          app-name: ${{ env.AZURE_WEBAPI_NAME }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: "${{ env.AZURE_WEBAPI_PACKAGE_PATH }}"
